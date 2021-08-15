@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace CalculadoraDeSomar
+namespace CalculadoraDeDividir
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace CalculadoraDeSomar
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmAdicao());
+            Application.Run(new frmDividir());
         }
     }
 }

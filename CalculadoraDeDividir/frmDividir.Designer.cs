@@ -1,6 +1,6 @@
-﻿namespace CalculadoraDeSomar
+﻿namespace CalculadoraDeDividir
 {
-    partial class frmAdicao
+    partial class frmDividir
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // frmAdicao
+            // frmDividir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Name = "frmAdicao";
-            this.Text = "Adição";
+            this.Name = "frmDividir";
+            this.Text = "Divisão";
             this.ResumeLayout(false);
 
         }

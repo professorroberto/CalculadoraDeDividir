@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace CalculadoraDeSomar
+namespace CalculadoraDeDividir
 {
-    public partial class frmAdicao : Form
+    public partial class frmDividir : Form
     {
-        public frmAdicao()
+        public frmDividir()
         {
             InitializeComponent();
         }
