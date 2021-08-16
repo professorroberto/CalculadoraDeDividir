@@ -11,9 +11,16 @@ namespace CalculadoraDeDividir
 {
     public partial class frmDividir : Form
     {
+        int res;
         public frmDividir()
         {
             InitializeComponent();
+        }
+
+        private void btnSomar_Click(object sender, EventArgs e)
+        {
+            res = int.Parse(txtN1.Text) / int.Parse(txtN2.Text);
+            lblRes.Text = res.ToString();
         }
     }
 }
